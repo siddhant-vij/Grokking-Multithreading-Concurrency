@@ -12,6 +12,8 @@ public class SolutionFactory {
         return new LinearSearchFirst();
       case 2:
         return new LinearSearchAll();
+      case 3:
+        return new MinMaxSum();
       default:
         return null;
     }
