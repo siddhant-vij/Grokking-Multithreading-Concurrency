@@ -14,6 +14,8 @@ public class SolutionFactory {
         return new LinearSearchAll();
       case 3:
         return new MinMaxSum();
+      case 4:
+        return new PiMonteCarlo();
       default:
         return null;
     }
