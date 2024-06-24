@@ -10,6 +10,8 @@ public class SolutionFactory {
         return new HelloWorld();
       case 1:
         return new LinearSearchFirst();
+      case 2:
+        return new LinearSearchAll();
       default:
         return null;
     }
