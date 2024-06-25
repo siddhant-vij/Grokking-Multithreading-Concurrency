@@ -16,6 +16,8 @@ public class SolutionFactory {
         return new MinMaxSum();
       case 4:
         return new PiMonteCarlo();
+      case 5:
+        return new OddEvenSort();
       default:
         return null;
     }
