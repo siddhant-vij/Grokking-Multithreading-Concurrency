@@ -2,6 +2,7 @@ package core;
 
 import solutions.*;
 import solutions.easy.*;
+import solutions.medium.*;
 
 public class SolutionFactory {
   public static Solution getSolution(int solutionNumber) {
@@ -18,6 +19,8 @@ public class SolutionFactory {
         return new PiMonteCarlo();
       case 5:
         return new OddEvenSort();
+      case 6:
+        return new FizzBuzz();
       default:
         return null;
     }
