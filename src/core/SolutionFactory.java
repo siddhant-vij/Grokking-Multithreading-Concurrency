@@ -21,6 +21,8 @@ public class SolutionFactory {
         return new OddEvenSort();
       case 6:
         return new FizzBuzz();
+      case 7:
+        return new ZeroEvenOdd();
       default:
         return null;
     }
