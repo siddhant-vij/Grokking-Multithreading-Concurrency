@@ -23,6 +23,8 @@ public class SolutionFactory {
         return new FizzBuzz();
       case 7:
         return new ZeroEvenOdd();
+      case 8:
+        return new PrintInOrder();
       default:
         return null;
     }
