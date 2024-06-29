@@ -27,6 +27,8 @@ public class SolutionFactory {
         return new PrintInOrder();
       case 9:
         return new LeapYearDetector();
+      case 10:
+        return new PalindromeInvestigator();
       default:
         return null;
     }
