@@ -25,6 +25,8 @@ public class SolutionFactory {
         return new ZeroEvenOdd();
       case 8:
         return new PrintInOrder();
+      case 9:
+        return new LeapYearDetector();
       default:
         return null;
     }
